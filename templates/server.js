@@ -43,7 +43,7 @@ app.use('/users', express.static(__dirname + '/public'));     // use css/index.c
 
 // set up our routes
 require('./app/routes.js')(app); // use "/" from own /app/routes.js
-require('really-basic-login-bar')(app,session,passport);
+require('ejs-header')(app,session,passport);
 
 
 app.listen(port);

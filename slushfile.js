@@ -1,6 +1,6 @@
 /*
- * slush-really-basic-login-bar-app
- * https://github.com/vtange/slush-really-basic-login-bar-app
+ * slush-ejs-barebones
+ * https://github.com/vtange/slush-ejs-barebones
  *
  * Copyright (c) 2016, Victor Tang
  * Licensed under the MIT license.

@@ -1,16 +1,16 @@
-# slush really-basic-login-bar-app
+# slush ejs-barebones
 
-[![Build Status](https://secure.travis-ci.org/vtange/slush-really-basic-login-bar-app.png?branch=master)](https://travis-ci.org/vtange/slush-really-basic-login-bar-app) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-really-basic-login-bar-app.png)](http://badges.enytc.com/for/npm/slush-really-basic-login-bar-app)
+[![Build Status](https://secure.travis-ci.org/vtange/slush-ejs-barebones.png?branch=master)](https://travis-ci.org/vtange/slush-ejs-barebones) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-ejs-barebones.png)](http://badges.enytc.com/for/npm/slush-ejs-barebones)
 
-> Make an Express app that uses really-basic-login-bar
+> Make an Express app that uses ejs-header
 
 
 ## Getting Started
 
-Install `slush-really-basic-login-bar-app` globally:
+Install `slush-ejs-barebones` globally:
 
 ```bash
-$ npm install -g slush-really-basic-login-bar-app
+$ npm install -g slush-ejs-barebones
 ```
 
 ### Usage
@@ -18,13 +18,13 @@ $ npm install -g slush-really-basic-login-bar-app
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-really-basic-login-bar-app
+$ mkdir New-Folder
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-really-basic-login-bar-app && slush really-basic-login-bar-app
+$ cd New-Folder && slush ejs-barebones
 ```
 
 ## Getting To Know Slush
@@ -37,10 +37,10 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/vtange/slush-really-basic-login-bar-app/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/vtange/slush-ejs-barebones/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/vtange/slush-really-basic-login-bar-app/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/vtange/slush-ejs-barebones/issues).
 
 ## License 
 

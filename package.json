@@ -1,18 +1,18 @@
 {
-    "name": "slush-really-basic-login-bar-app",
-    "description": "Make an Express app that uses really-basic-login-bar",
+    "name": "slush-ejs-barebones",
+    "description": "Make an Express app that uses ejs-header",
     "version": "1.0.0",
-    "homepage": "https://github.com/vtange/slush-really-basic-login-bar-app",
+    "homepage": "https://github.com/vtange/slush-ejs-barebones",
     "author": {
         "name": "Victor Tang",
         "email": "victortang1992@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/vtange/slush-really-basic-login-bar-app.git"
+        "url": "git://github.com/vtange/slush-ejs-barebones.git"
     },
     "bugs": {
-        "url": "https://github.com/vtange/slush-really-basic-login-bar-app/issues"
+        "url": "https://github.com/vtange/slush-ejs-barebones/issues"
     },
     "license": "MIT",
     "main": "slushfile.js",
