@@ -1,7 +1,7 @@
 {
   "name": "slush-ejs-barebones",
   "description": "Make an Express app that uses ejs-header",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/vtange/slush-ejs-barebones",
   "author": {
     "name": "Victor Tang",
