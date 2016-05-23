@@ -17,6 +17,12 @@ var gulp = require('gulp'),
     inquirer = require('inquirer'),
     path = require('path');
 
+var settings = {
+					evaluate    : /<[@]([\s\S]+?)[@]>/g,
+					interpolate : /<[@]=([\s\S]+?)[@]>/g,
+					escape      : /<[@]-([\s\S]+?)[@]>/g
+				};
+
 function format(string) {
     var username = string.toLowerCase();
     return username.replace(/\s/g, '');
@@ -68,8 +74,8 @@ gulp.task('default', function (done) {
             }
             answers.appNameSlug = _.slugify(answers.appName);
             answers.appNameCamel = answers.appName.toCamelCase();
-            gulp.src(__dirname + '/templates/**')
-                .pipe(template(answers))
+            gulp.src([__dirname + '/templates/**', __dirname + '/templates/.*'])
+                .pipe(template(answers,settings))
                 .pipe(rename(function (file) {
                     if (file.basename[0] === '_') {
                         file.basename = '.' + file.basename.slice(1);
